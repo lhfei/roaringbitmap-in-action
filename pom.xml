@@ -18,7 +18,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-boot-admin.version>2.2.2</spring-boot-admin.version>
-		<roaringbitmap.version>0.8.13</roaringbitmap.version>
+		<roaringbitmap.version>0.9.0</roaringbitmap.version>
 	</properties>
 
 	<dependencies>
