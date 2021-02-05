@@ -14,7 +14,7 @@
 
 package cn.lhfei.roaringbitmap.basic;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.roaringbitmap.RoaringBitmap;
 
 /**
@@ -40,7 +40,7 @@ public class BasicTest extends BasicTestSuite {
 
     // number of values stored?
     long cardinality = rr.getLongCardinality();
-    LOG.info("{}", cardinality);
+    LOG.info("Cardinality {}", cardinality);
 
     // a "forEach" is faster than this loop, but a loop is possible:
     for (int i : rr) {

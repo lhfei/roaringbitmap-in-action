@@ -16,7 +16,7 @@ package cn.lhfei.roaringbitmap.basic;
 
 import java.text.DecimalFormat;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.roaringbitmap.RoaringBitmap;
 
 /**
